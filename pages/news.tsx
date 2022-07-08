@@ -70,9 +70,24 @@ export default function IndexPage() {
         litter all over house, going to catch the red dot today going to catch
         the red dot today. Jump off balcony, onto stranger's head.
       </p>
-      <p>
-        
-      </p>
+      
+        <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://amp.dev/static/inline-examples/images/mountains.webp"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+        ></amp-img>
+      </amp-img>
+      
       <p>
         
       </p>
@@ -87,9 +102,24 @@ export default function IndexPage() {
         shower, and eat a plant, kill a hand, touch water with paw then recoil
         in horror yet flop over.
       </p>
-      <p>
-        
-      </p>
+     
+        <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://amp.dev/static/inline-examples/images/mountains.webp"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+        ></amp-img>
+      </amp-img>
+      
       <style jsx>{`
         h1 {
           margin-bottom: 5px;
