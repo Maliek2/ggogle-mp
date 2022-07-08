@@ -13,9 +13,9 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>The Cat</title>
+        <title>The News 23</title>
       </Head>
-      <h1>The Cat (AMP-first Page)</h1>
+      <h1>The News App (Maliek News23)</h1>
       <Byline author="Dan Zajdband" />
       <p className="caption">Meowwwwwwww</p>
       <amp-img
