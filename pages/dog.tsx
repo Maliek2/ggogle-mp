@@ -12,19 +12,19 @@ export default function DogPage() {
   return (
     <div>
       <Head>
-        <title>The Dog</title>
+        <title>The Dog Pound </title>
       </Head>
       <h1>The Dog (Hybrid AMP Page)</h1>
-      <Byline author="Meow Meow Fuzzyface" />
+      <Byline author="Big Boy" />
       <p>
         <a href={isAmp ? '/dog' : '/dog?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
-      <p className="caption">Woooooooooooof</p>
+      <p className="caption">Mr Problem</p>
       <p>
         Wafer donut candy soufflé{' '}
-        <a href={isAmp ? '/?amp=1' : '/'}>lemon drops</a> icing. Marzipan gummi
+        <a href={isAmp ? '/?amp=1' : '/'}>NewsPublisher</a> icing. Marzipan gummi
         bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
