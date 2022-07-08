@@ -1,0 +1,229 @@
+import Head from 'next/head'
+import { useAmp } from 'next/amp'
+import Byline from '../components/Byline'
+
+export const config = {
+  amp: 'hybrid',
+}
+
+export default function DogPage() {
+  const isAmp = useAmp()
+
+  return (
+    <div>
+      <Head>
+        <title>The Dog Pound Gang</title>
+      </Head>
+      <h1>The Dog Pound (AMP Page)</h1>
+      <Byline author="Mr Problem 28" />
+      <p>
+        <a href={isAmp ? '/dpg' : '/dpg?amp=1'}>
+          {isAmp ? 'View Non-AMP' : 'View AMP'} Version
+        </a>
+      </p>
+      <p className="caption">The Dog Pound Gang</p>
+      <p>
+        Wafer donut candy soufflé{' '}
+        <a href={isAmp ? '/?amp=1' : '/'}>Mr Problem </a> icing. Marzipan gummi
+        bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
+        roll sweet roll topping chocolate bar dragée pudding chocolate cake.
+        Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
+        macaroon bonbon cupcake apple pie candy canes biscuit candy canes.
+        Jujubes jelly liquorice toffee gingerbread. Candy tootsie roll macaroon
+        chocolate bar icing sugar plum pie. Icing gummies chocolate bar
+        chocolate marzipan bonbon cookie chocolate tart. Caramels danish halvah
+        croissant. Cheesecake cookie tootsie roll ice cream. Powder dessert
+        carrot cake muffin tiramisu lemon drops liquorice topping brownie.
+        Soufflé chocolate cake croissant cupcake jelly.
+      </p>
+      <p>
+        Muffin gummies dessert cheesecake candy canes. Candy canes danish cotton
+        candy tart dessert powder bear claw marshmallow. Muffin chocolate
+        marshmallow danish. Chocolate bar biscuit cake tiramisu. Topping sweet
+        brownie jujubes powder marzipan. Croissant wafer bonbon chupa chups cake
+        cake marzipan caramels jujubes. Cupcake cheesecake sweet roll
+        marshmallow lollipop danish jujubes jelly icing. Apple pie chupa chups
+        lollipop jelly-o cheesecake jelly beans cake dessert. Tootsie roll
+        tootsie roll bonbon pastry croissant gummi bears cake cake. Fruitcake
+        sugar plum halvah gingerbread cookie pastry chupa chups wafer lemon
+        drops. Marshmallow liquorice oat cake lollipop. Lemon drops oat cake
+        halvah liquorice danish powder cupcake soufflé. Cake tart topping
+        jelly-o tart sugar plum. Chocolate bar cookie wafer tootsie roll candy
+        cotton candy toffee pie donut.
+      </p>
+      <p>
+        
+Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide
+        in litter box until treats are fed touch water with paw then recoil in
+        horror then cats take over the world i could pee on this if i had the
+        energy. Lie on your belly and purr when you are asleep toy mouse squeak
+        roll over so stick butt in face you call this cat food? and behind the
+        couch curl up and sleep on the freshly laundered towels yet love to play
+        with owner's hair tie. Knock dish off table head butt cant eat out of my
+        own dish walk on car leaving trail of paw prints on hood and windshield
+        find something else more interesting cats go for world domination, spit
+        up on light gray carpet instead of adjacent linoleum sit in box. Missing
+        until dinner time put toy mouse in food bowl run out of litter box at
+        full speed but poop in the plant pot and nap all day caticus cuteicus.
+        Leave hair everywhere attack feet mrow bleghbleghvomit my furball really
+        tie the room together meowwww eat grass, throw it back up. Hate dog
+        meowzer! find something else more interesting, yet cat snacks, so
+        scratch at the door then walk away chase mice. Chase laser scratch the
+        box plan steps for world domination massacre a bird in the living room
+        and then look like the cutest and most innocent animal on the planet for
+        stare at ceiling light and who's the baby. Stare at ceiling Gate keepers
+        of hell, for licks paws intently sniff hand. Pooping rainbow while
+        flying in a toasted bread costume in space. Gnaw the corn cob. Lick yarn
+        hanging out of own butt stare at ceiling lick butt and make a weird face
+        eat and than sleep on your face. Meow all night having their mate
+        disturbing sleeping humans attack feet, so poop on grasses stare at wall
+        turn and meow stare at wall some more meow again continue staring yet
+        purr. Have my breakfast spaghetti yarn. Cats secretly make all the
+        worlds muffins throwup on your pillow plays league of legends. Lick the
+        plastic bag scratch at the door then walk away. Unwrap toilet paper meow
+        to be let in walk on car leaving trail of paw prints on hood and
+        windshield yet hide from vacuum cleaner or massacre a bird in the living
+        room and then look like the cutest and most innocent animal on the
+        planet. Purr lick the curtain just to be annoying go into a room to
+        decide you didn't want to be in there anyway attack feet, and spit up on
+        light gray carpet instead of adjacent linoleum yet lick plastic bags.
+        Spit up on light gray carpet instead of adjacent linoleum touch water
+        with paw then recoil in horror so cat snacks. Purr. Lick sellotape
+        please stop looking at your phone and pet me yet stick butt in face
+        meow. Groom yourself 4 hours - checked, have your beauty sleep 18 hours
+        - checked, be fabulous for the rest of the day - checked! tuxedo cats
+        always looking dapper but purrrrrr. Claws in your leg i could pee on
+        this if i had the energy. Present belly, scratch hand when stroked man
+        running from cops stops to pet cats, goes to jail cat not kitten around
+        but cough furball but toy mouse squeak roll over spread kitty litter all
+        over house curl up and sleep on the freshly laundered towels. Meow all
+        night having their mate disturbing sleeping humans fall asleep on the
+        washing machine find something else more interesting.
+
+
+
+
+An academic essay is a concentrated piece of writing that uses facts, analysis, and interpretation to establish a concept or argument. 
+
+As a student, you may be required to write a variety of essays. An essay's content and length are determined by your academic level, the topic of study, and course requirements. Most university essays, on the other hand, are argumentative in nature, attempting to convince the reader of a certain viewpoint or point of view on a subject. 
+
+The essay writing process is divided into three stages: 
+
+Prepare by deciding on a subject, doing research, and drafting an essay outline. 
+
+Writing: Begin with an introduction, then build your argument with evidence in the main body, and finish with a conclusion. 
+
+Revision: Double-check your essay's substance, organization, punctuation, spelling, and formatting. 
+
+Using paragraphs from our interactive essay example, we take you through what to include in the introduction, body, and conclusion of an academic essay in this tutorial. 
+
+The procedure for writing an essay 
+
+Every essay or paper follows the same writing process of preparation, writing, and revisions, but the amount of time and work required on each step varies depending on the kind of essay. 
+
+If you're writing a five-paragraph expository essay for a high school class, you'll probably spend the most time on the writing stage; on the other hand, if you're writing a college-level argumentative essay, you'll need to spend more time researching your topic and developing an original argument before you begin writing. 
+
+Best essay writer : 
+
+Getting ready to write an essay 
+
+Before you begin writing, be sure you know exactly what you're going to say and how you're going to express it. There are a few important measures you may take to ensure you're ready: 
+
+• Recognize your assignment: What is the purpose of this paper? What is the assignment's length and due date? Is there anything you need to discuss with your professor or teacher? 
+
+• Establish a topic: If you have the option of choosing your own subject, select something about which you already have some knowledge and which will keep your attention. 
+
+• Do your homework: To assist you figure out your viewpoint and perspective on the subject, read primary and secondary materials and take notes. You'll utilize them to back up your claims. 
+
+• Make a thesis statement: The thesis is the main point or argument you wish to convey in your paper. A clear thesis is necessary for a focused essay, and you should refer to it often while you write. 
+
+• Make a rough outline: In an outline, sketch out the general framework of your essay. This makes it simpler to get started and helps you stay on target as you write. 
+
+You're ready to start writing after you've decided what you want to talk about, how you want to talk about it, and what evidence you'll use. 
+
+Putting together the introduction 
+
+The tone of your essay is established in the beginning. It should pique the reader's attention while also letting them know what to anticipate. The introduction usually accounts for 10–20 percent of the whole content. 
+
+1. Get your reader's attention. 
+
+The opening phrase of your introduction should spark the attention and curiosity of your reader. The hook is a term used to describe the first phrase in a paragraph. It may be a provocative inquiry, a startling fact, or a strong remark highlighting the topic's importance. 
+
+Let's pretend we're writing an essay on the history of Braille (the raised-dot reading and writing system used by visually impaired people). Our hook may make a powerful statement about the subject: 
+
+2. Provide background information about your subject. 
+
+The next step is to provide context to assist your reader comprehend your point. This may include presenting background information, a summary of significant academic work or disputes on the subject, and an explanation of complex terminology. Don't go into too much detail in the beginning; you may expand on it later in the article. 
+
+3. Give your thesis statement. 
+
+The next step is to write your thesis statement, which is the main argument you'll make. The thesis statement establishes a point of emphasis and indicates your viewpoint on the subject. It typically consists of one or two phrases. This might be the thesis statement for our Braille essay: 
+
+4. Draw a diagram of the structure 
+
+In lengthier essays, you may conclude the opening by summarizing briefly what each section of the essay will address. This walks the reader through your framework and offers them a sneak peek at how your argument will progress. 
+
+The major part of the essay 
+
+The body of your essay is where you support your thesis with arguments, evidence, and development of your views. Its goal is to present, evaluate, and analyze the data and sources you've collected to back up your claim. 
+
+• The body text's length 
+
+The length of the body of the essay is determined by the kind of essay. The body of your essay should make about 60–80% of its whole length. This may be only three paragraphs for a high school essay, but for a graduate school essay of 6,000 words, the body could be 8–10 pages long. 
+
+• structure of a paragraph 
+
+It is essential to divide your essay into paragraphs in order to give it a logical framework. Each paragraph should be focused on a single major topic or theme. 
+
+A subject phrase introduces that concept. In general, the subject sentence should continue from the previous paragraph and introduce the point that will be addressed in this paragraph. To provide obvious links between sentences, transition words may be employed. 
+
+Present proof like as statistics, examples, or quotations from relevant sources after the subject phrase. Make careful to analyze and explain the evidence, as well as demonstrate how it contributes to the development of your broader argument. 
+
+Putting together the conclusion 
+
+The last paragraph of an essay is the conclusion. It should take up no more than 10–15 percent of the text on average. A good essay ending is as follows: 
+
+Back to your thesis 
+
+Brings your key points together. 
+
+Demonstrates why your point of view is important. 
+
+A good ending should end with a memorable or powerful phrase that makes a lasting effect on the reader. 
+
+What to leave out of a conclusion 
+
+There are a few things you should avoid doing in order to make your essay's conclusion as powerful as possible. The following are the most frequent errors: 
+
+• Including fresh evidence or arguments 
+
+• Undermining your arguments (for example, "This is simply one of many approaches"). 
+
+• Using closing words such as "To summarize..." or "In conclusion..."
+      </p>
+      <p>
+        
+      </p>
+      <p>
+##Unlock Your Screen, 
+Learn Random Facts. Make Learning Your Habit With Fun Facts 
+
+Daily Interesting, Informative and Weird Random Facts! 
+
+“Habits are powerful factors in our lives. Because they are consistent, often unconscious patterns, they constantly, daily, express our character and produce our effectiveness … or ineffectiveness” — 7 Habits of Highly Effective People 
+
+We all want to have good habits, but they are hard to gain. Often, we find ourselves struggling to stick to a plan we make and, let’s face it, give up at the end. And when it comes to learning, things get even harder… 
+
+So this is where Ultimate Facts comes in. 
+
+Ultimate Facts helps you learn something new and interesting every day by showing you random facts when you unlock your phone. Just set your preferences, like when and how many facts you want to learn, and leave the rest to Ultimate Facts. You will soon be building up your learning habit. 
+
+Ultimate Facts has hundreds of interesting facts in it and each of them is hand-picked, verified, pictured and reviewed by a team of professional editors. Besides, every fact has a detailed explanation and a source link for you to gain insight and learn more. 
+
+In this app, you will find cool fun facts, not only interesting but also informative, that you will like to learn. You can go with a specific topic, or just let the app present random facts to you. Besides, you are not limited to lock screen fact reminders; you can always enjoy reading all the interesting facts. And if you like one of them, you can bookmark it to have a look later on, and share it with your friends. 
+
+“We are what we repeatedly do. Excellence, is then, not an act, but a habit” says Aristotle. So isn’t it the time you began building your learning habit? Ultimate Facts is here to help you out…
+      </p>
+    </div>
+  )
+}
