@@ -13,11 +13,11 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>The News Blog</title>
+        <title>The Best News Blog</title>
       </Head>
-      <h1>The News Blog</h1>
-      <Byline author="Maliek101" />
-      <p className="caption">Mr Problem Child</p>
+      <h1>The Best News Blog</h1>
+      <Byline author="MaliekG" />
+      <p className="caption">Problem Child</p>
       
 <amp-img
         alt="Mountains"
@@ -37,7 +37,7 @@ export default function IndexPage() {
       </amp-img>
 
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>Dog Vs Cats</a>,
+        Cat ipsum dolor <a href={isAmp ? '/news?amp=1' : '/news'}>Blog News</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
