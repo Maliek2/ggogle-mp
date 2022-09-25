@@ -13,12 +13,13 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>The News 23</title>
+        <title>The News Blog</title>
       </Head>
-      <h1>The News App 23</h1>
+      <h1>The News Blog</h1>
       <Byline author="Maliek101" />
-      <p className="caption">Mr Problem</p>
-      <amp-img
+      <p className="caption">Mr Problem Child</p>
+      
+<amp-img
         alt="Mountains"
         width="550"
         height="368"
@@ -34,8 +35,9 @@ export default function IndexPage() {
           src="https://amp.dev/static/inline-examples/images/mountains.jpg"
         ></amp-img>
       </amp-img>
+
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
+        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>Dog Vs Cats</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -95,7 +97,7 @@ export default function IndexPage() {
           margin-bottom: 5px;
         }
         p {
-          font-size: 18px;
+          font-size: 16px;
           line-height: 30px;
           margin-top: 30px;
         }
