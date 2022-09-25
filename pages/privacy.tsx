@@ -7,7 +7,7 @@ export const config = {
   amp: true,
 }
 
-export default function IndexPage() {
+export default function PrivacyPage() {
   const isAmp = useAmp()
 
   return (
@@ -23,13 +23,13 @@ export default function IndexPage() {
        Latest Updates On Our <a href={isAmp ? '/privacy?amp=1' : '/privacy'}>Privacy Policy</a>,
        
         <strong>Privacy Policy</strong>
- <p>
+                 <p>
                   [Developer/Company name] built the Maliek News app as
                   [open source/free/freemium/ad-supported/commercial] app. This SERVICE is provided by
                   [Developer/Company name] at no cost and is intended for use as
                   is.
                 </p> 
-<p>
+                 <p>
                   This page is used to inform visitors regarding [my/our]
                   policies with the collection, use, and disclosure of Personal
                   Information if anyone decided to use [my/our] Service.
