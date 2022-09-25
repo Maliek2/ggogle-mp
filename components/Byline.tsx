@@ -11,7 +11,7 @@ export default function Byline({ author }: BylineProps) {
     
       <style jsx>{`
         .byline {
-          color: blue;
+          color: green;
           font-weight: bolder;
         }
       `}</style>
