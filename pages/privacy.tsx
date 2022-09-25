@@ -126,10 +126,7 @@ export default function PrivacyPage() {
      </p>
       
       <style jsx>
- {`     
-body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; 
-
-        h1 {
+ {`  h1 {
           margin-bottom: 5px;
         }
         p {
