@@ -35,7 +35,7 @@ export default function IndexPage() {
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
+        Cat ipsum dolor <a href={isAmp ? '/news?amp=1' : '/news'}>Blog News</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -43,7 +43,28 @@ export default function IndexPage() {
         meoooow!. Chase ball of string climb a tree, wait for a fireman jump to
         fireman then scratch his face claw drapes, for meow to be let in yet
         attack dog, run away and pretend to be victim meow loudly just to annoy
-        owners. Touch water with paw then recoil in horror hide when guests come
+        owners. 
+      </p>
+      
+        <amp-img
+        alt="Mountains"
+        width="550"
+        height="368"
+        layout="responsive"
+        src="https://amp.dev/static/inline-examples/images/mountains.webp"
+      >
+        <amp-img
+          alt="Mountains"
+          fallback=""
+          width="550"
+          height="368"
+          layout="responsive"
+          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+        ></amp-img>
+      </amp-img>
+      
+      <p>
+        Touch water with paw then recoil in horror hide when guests come
         over, and tuxedo cats always looking dapper so has closed eyes but still
         sees you or a nice warm laptop for me to sit on pee in human's bed until
         he cleans the litter box. Steal the warm chair right after you get up
@@ -69,27 +90,6 @@ export default function IndexPage() {
         leaving trail of paw prints on hood and windshield, and spread kitty
         litter all over house, going to catch the red dot today going to catch
         the red dot today. Jump off balcony, onto stranger's head.
-      </p>
-      
-        <amp-img
-        alt="Mountains"
-        width="550"
-        height="368"
-        layout="responsive"
-        src="https://amp.dev/static/inline-examples/images/mountains.webp"
-      >
-        <amp-img
-          alt="Mountains"
-          fallback=""
-          width="550"
-          height="368"
-          layout="responsive"
-          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
-        ></amp-img>
-      </amp-img>
-      
-      <p>
-        
       </p>
       <p>
         Ignore the squirrels, you'll never catch them anyway missing until
