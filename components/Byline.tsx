@@ -8,7 +8,7 @@ export default function Byline({ author }: BylineProps) {
       <div className="byline">{author}</div>
       <div id="wrapper">
     </div>
-    <span>
+   
     <script type="text/javascript" src="demo/dist/bundle.js"></script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <span style="display:none">
