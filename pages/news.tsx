@@ -7,7 +7,7 @@ export const config = {
   amp: true,
 }
 
-export default function IndexPage() {
+export default function NewsPage() {
   const isAmp = useAmp()
 
   return (
