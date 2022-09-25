@@ -6,8 +6,7 @@ export default function Byline({ author }: BylineProps) {
   return (
     <>
       <div className="byline">{author}</div>
-      <div id="wrapper">
-    </div>
+      
    
     
       <style jsx>{`
