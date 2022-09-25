@@ -127,7 +127,7 @@ export default function IndexPage() {
       
       <style jsx>
  {`     
-body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; } 
+body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:1em; 
 
         h1 {
           margin-bottom: 5px;
