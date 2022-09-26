@@ -16,8 +16,8 @@ export default function IndexPage() {
         <title>The Best News Blog</title>
       </Head>
       <h1>The Best News Blog</h1>
-      <Byline author="MaliekG" />
-      <p className="caption">Problem Child</p>
+      <Byline author="Ghost Writer" />
+      <p className="caption">Problem Ent.</p>
       
 <amp-img
         alt="Mountains"
@@ -37,7 +37,7 @@ export default function IndexPage() {
       </amp-img>
 
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/news?amp=1' : '/news'}>Blog News</a>,
+        Read our <a href={isAmp ? '/privacy?amp=1' : '/privacy'}>Privacy</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -78,36 +78,5 @@ export default function IndexPage() {
       <p>
         
       </p>
-      <p>
-        Ignore the squirrels, you'll never catch them anyway missing until
-        dinner time, for intrigued by the shower, so i could pee on this if i
-        had the energy for purrrrrr for vommit food and eat it again lick butt
-        and make a weird face. Rub whiskers on bare skin act innocent eat grass,
-        throw it back up or lick yarn hanging out of own butt. I am the best cat
-        is love, cat is life, or sleep nap, mew but meoooow!. Meowzer!. Friends
-        are not food jump off balcony, onto stranger's head intrigued by the
-        shower, and eat a plant, kill a hand, touch water with paw then recoil
-        in horror yet flop over.
-      </p>
-      <p>
+    
         
-      </p>
-      <style jsx>{`
-        h1 {
-          margin-bottom: 5px;
-        }
-        p {
-          font-size: 16px;
-          line-height: 30px;
-          margin-top: 30px;
-        }
-        .caption {
-          color: #ccc;
-          margin-top: 0;
-          font-size: 14px;
-          text-align: center;
-        }
-      `}</style>
-    </Layout>
-  )
-}
